@@ -1,3 +1,4 @@
+--zaid inamdar
 create database ASSIGNMENTDB;
 USE ASSIGNMENTDB;
 
