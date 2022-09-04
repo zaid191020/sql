@@ -61,7 +61,7 @@ select ename,sal,comm from emp where comm is not null and comm>(sal*0.1)
 
 --15
 
-select ename from emp where ename like '%L%L%' and (deptno=30 or mgr=7738)
+select ename from emp where ename like '%L%L%' and (deptno=30 or mgr=7782)
 
 --16
 
