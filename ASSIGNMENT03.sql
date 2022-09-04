@@ -66,7 +66,7 @@ select ename from emp where ename like '%L%L%' and (deptno=30 or mgr=7782)
 --16
 
 select ename,deptno,datediff(year,hiredate,getdate()) as experience from emp where (datediff(year,hiredate,getdate())>10 ) and (datediff(year,hiredate,getdate())<20)
-
+select COUNT(empno) from emp where DATEDIFF(YEAR, hiredate, GETDATE())  BETWEEN 10 AND 20;
 --17
 
 select dept.dname,emp.ename from emp inner join dept on emp.deptno=dept.deptno order by dept.dname asc,emp.ename desc
