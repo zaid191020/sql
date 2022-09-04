@@ -186,8 +186,7 @@ Select ename,sal*12 as yearly_salary from emp where ename='SMITH'
 ------14
 select ename,empno,sal from emp where sal not between 1500 and 2850
 
------15
-select mgr,count(empno) from emp group by mgr having(count(empno)>2)
+
 
 
 
