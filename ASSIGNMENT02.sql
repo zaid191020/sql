@@ -1,5 +1,5 @@
 -----ZAID INAMDAR
-
+USE ASSIGNMENTDB;
 create table dept(  
   deptno numeric(10) primary key,  
   dname  varchar(20),  
